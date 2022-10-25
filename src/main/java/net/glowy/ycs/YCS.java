@@ -1,6 +1,7 @@
 package net.glowy.ycs;
 
 import net.fabricmc.api.ModInitializer;
+import net.glowy.ycs.item.Skooma;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -13,5 +14,6 @@ public class YCS implements ModInitializer {
 	@Override
 	public void onInitialize() {
 
+		Skooma.initialize();
 	}
 }
